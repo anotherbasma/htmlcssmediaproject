@@ -1,0 +1,342 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+h1,h2{
+    letter-spacing: 5;
+}
+html,body{
+   width: 100%;
+   height: 100%; 
+}
+/******nav********************************************/
+nav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px !important;
+    margin: 0px!important;
+}
+nav ul li{
+    display: inline-block;
+    
+}
+nav ul li i{
+    color: white;
+    padding:10px 15px;
+}
+nav .fa-search{
+   
+}
+nav i:hover{
+    background-color:#c1c1c1;
+    color: black;
+}
+/******textdiv*******************************************/
+#textdiv{
+    padding: 50px;
+    text-align: center;
+    
+}
+#textdiv{
+    font-family: 'Oswald', sans-serif;
+
+}
+#textdiv .tit{
+    
+    font-size: 50px;
+}
+#textdiv p{
+    padding: 10px;
+}
+#textdiv p span{
+    background-color: black;
+    color: white;
+    padding: 0px 10px;
+}
+/********header****************************************************/
+
+header{
+position: relative;
+}
+header #aboveimg{
+    position: absolute;
+    top:40%;
+    left: 50px;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+
+    
+}
+header #aboveimg h1,header #aboveimg h3{
+    padding: 12px;
+}
+
+header #aboveimg button{
+    border: none;
+    padding: 15px 20px ;
+    background-color: rgba(159,159,159,0.7);
+    font-weight: bold;
+    font-family: oswald;
+   
+}
+header #aboveimg button:hover{
+    background-color: rgba(159,159,159,0.9);
+}
+
+/****main*************************************************/
+main{
+    /*background-color: teal;*/
+    height: auto;
+    overflow: auto;
+}
+main section{
+width: 70%;
+float: left;
+padding: 20px;
+height: auto;
+overflow: auto;
+}
+main section article{
+padding: 20px;
+margin-bottom: 80px;
+}
+main section article .articletitle{
+text-align: center;
+padding-bottom: 20px;
+}
+
+main section article .articletitle p span{
+ 
+    color: #616161; 
+ 
+ }
+
+main section article .articlebody p{
+    padding: 15px 0px;
+    text-align: justify;
+
+}
+
+
+main section article .articlebuttons .leftb
+{
+   float: left; 
+   background-color: white;
+   padding: 10px 20px;
+   border: 1px solid #c1c1c1;
+   font-weight: bold;
+}
+main section article .articlebuttons .leftb:hover
+{
+    background-color: #c1c1c1;
+    
+}
+main section article .articlebuttons .rightb
+{
+   float: right; 
+   background-color: black;
+   color: white;
+   padding: 10px 20px;
+   border: 1px solid #b1b1b1;
+   font-weight: bold;
+}
+main section article .articlebuttons span{
+background-color: white;
+padding: 0px 10px;
+color: black;
+}
+main section article .articlefooter img{
+width: 10%;
+float: left;
+
+}
+main section article .articlefooter {
+    padding: 30px 0px;
+    }
+
+main section article .articlefooter div{
+width: 90%;
+float: right;
+padding: 10px 30px;
+}
+main section article .articlefooter div p{
+padding-bottom: 20px;
+
+}
+main section article .articlebuttons .rightb:hover
+{
+  
+   background-color: #c1c1c1;
+   color: black;
+  
+}
+main aside{
+    width: 30%;
+ float: left;
+ padding: 20px;
+ height: auto;
+overflow: auto;
+}
+main aside .firstasidediv div {
+    background-color: black;
+    padding: 30px 20px;
+    color: white;
+   
+}
+main aside section{
+    
+    padding: 25px 0px;
+    width: 100%;
+
+}
+
+main aside section .sectionheader {
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+}
+main aside section .sectionheader h3{
+  padding: 5px 20px;
+}
+
+main aside .sectionbody1  .menuitem{
+padding: 10px 15px;
+height: auto;
+overflow: auto;
+}
+main aside .sectionbody1 .menuitem p{
+    padding: 5px 10px;
+}
+main aside .sectionbody1 .menuitem:hover{
+    background-color: #c1c1c1;
+}
+main aside .sectionbody1 .menuitem img{
+    float: left;
+    width: 15%;
+}
+main aside .sectionbody1 .menuitem div{
+    float: left;
+    width: 85%;
+}
+main aside .sectionbody2{
+    text-align: center;
+    padding: 100px 0px;
+}
+main aside .sectionbody3 {
+    padding: 10px;
+}
+main aside .sectionbody3 span{
+display: inline-block;
+padding: 8px;
+
+}
+main aside .sectionbody3 .firstspan
+{
+    background-color: black;
+    color: white;
+}
+main aside .sectionbody4
+{
+    box-sizing: border-box;
+}
+main aside .sectionbody4 div{
+    
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px;
+    float: left;
+}
+.cl{
+    clear: both;
+    content: " ";
+}
+/*****footer***************************************************/
+footer{
+    background-color: #616161;
+    color: white;
+    padding: 50px;
+    font-size: 16px;
+}
+footer button{
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+   
+}
+footer button:hover{
+    background-color: #c1c1c1;
+    color: black;
+    
+    
+}
+footer p{
+    padding: 15px 0px;
+}
+footer p a {
+padding: 5px;
+color: white;
+}
+
+
+@media screen and (max-width: 600px){
+    main section,main aside{
+        float: none;
+        width: 100%;
+        display: block;
+    }
+
+
+    #textdiv .tit{
+    
+        font-size: 30px;
+    }
+    #textdiv p{
+        padding: 5px;
+        font-size: 14px;
+
+    }
+    header #aboveimg{
+        top:20%;
+        font-size: 80%;
+
+    }
+    
+header #aboveimg button{
+   
+    padding: 7px 10px ;
+}
+h1,h2{
+    letter-spacing: 2.5;
+}
+
+/***************/
+nav{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: auto;
+    z-index: 111;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px !important;
+    margin: 0px!important;
+}
+nav ul li{
+    display: block;
+    
+}
+nav ul li i{
+    color: white;
+    padding:10px 15px;
+    display: block;
+}
+}
